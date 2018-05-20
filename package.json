@@ -1,0 +1,41 @@
+{
+    "author": "noagagin@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pinkelephant-date",
+    "pebble": {
+        "displayName": "PINKELEPHANT + Date",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu.png",
+                    "menuIcon": true,
+                    "name": "icon",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/foxia.png",
+                    "name": "IMAGE_BACKGROUND",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "chalk"
+        ],
+        "uuid": "14001ed7-0a2e-4b5e-827a-bb283dd3f224",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
